@@ -1,10 +1,10 @@
 /**
- * This is the database schema for testing MySQL support of ozzo-dbx.
+ * This is the database schema for testing MySQL support of dbx.
  * The following database setup is required in order to run the test:
  * - host: 127.0.0.1
  * - user: travis
  * - pass: <none>
- * - database: pocketbase_dbx_test
+ * - database: smartbusiness_dbx_test
  */
 
 DROP TABLE IF EXISTS `order_item` CASCADE;

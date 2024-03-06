@@ -18,7 +18,7 @@ import (
 )
 
 const (
-	TestDSN     = "travis:@/pocketbase_dbx_test?parseTime=true"
+	TestDSN     = "travis:@/smartbusiness_dbx_test?parseTime=true"
 	FixtureFile = "testdata/mysql.sql"
 )
 
@@ -360,8 +360,6 @@ func getPreparedDB() *DB {
 	}
 	return db
 }
-
-// Naming according to issue 49 ( https://github.com/pocketbase/dbx/issues/49 )
 
 type ArtistDAO struct {
 	nickname string
